@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #f0f9ff, #e0f7fa);
+    color: #333;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #0277bd;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    text-align: center;
+    color: #0097a7;
+    margin-bottom: 0.5em;
+}
+
+em {
+    display: block;
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Image Styles */
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* Lists */
+ul, ol {
+    margin: 20px;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Section Titles */
+h3 {
+    color: #006064;
+    margin-top: 40px;
+    border-bottom: 2px solid #0097a7;
+    padding-bottom: 5px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #00796b;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #004d40;
+}
+
+/* Footer and Contact */
+hr {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+p:last-of-type {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* Responsive Image Gallery */
+p img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.2em;
